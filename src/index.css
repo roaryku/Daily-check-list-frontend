@@ -53,14 +53,18 @@ input {
   font-size: 20px;
   }
 
-  @media all and ( max-width: 800px){
+ @media all and ( max-width: 800px){
     body{
-      background-position: 30% ;
+      background-position: 20% ;
       display: grid;
       place-items: left;
     }
     h1{
-      font-size: 35px;
+      font-size: 30px;
+      padding: 8px;
+      border-radius: 5px;
+      color: #222b3d;
+      background: #d6d4d0;
     }
   }
   
